@@ -1,0 +1,5 @@
+host superman
+hostname krypton.example.com
+user superman
+IdentityFile ~/.ssh/superman
+IdentitiesOnly yes

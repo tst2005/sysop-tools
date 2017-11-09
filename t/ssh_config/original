@@ -1,0 +1,13 @@
+# From : http://interrobeng.com/2013/08/25/speed-up-git-5x-to-50x/
+# doesn't forward agent correctly ?
+
+# TIPS:
+# * install keychain and ssh-askpass-gnome
+# * add to your ~/.zshenv:
+#   eval `keychain --eval --quiet --timeout 720 ~/.ssh/id_dsa`
+#   (or better in .xsession, systemd service or something)
+
+host gc
+hostname chico.local
+User gc
+
